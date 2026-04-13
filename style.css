@@ -6,6 +6,12 @@
 body {
     background-color: rgb(239, 239, 229) ;
     font-size: 17px ;
+    min-height: 100vh ;
+    display: flex ;
+    flex-direction: column ;
+}
+main {
+    flex: 1;
 }
 h1 {
     margin-top: 50px ;
@@ -17,7 +23,6 @@ h1 {
     background: rgb(35, 25, 25);
     padding : 20px ;
     color: white;
-    text-align: center;
 }
 nav {
     overflow: hidden;
@@ -72,9 +77,6 @@ nav a:hover {
 .next:hover {
     background-color:#000;
 }
-.foot-home {
-    margin-top: 135.5px;
-}
 table {
     width: 80% ;
     height: 60%;
@@ -94,9 +96,6 @@ table th {
 }
 tbody tr:nth-child(odd) {
     background-color: #f2f2f2 ;
-}
-.foot-course {
-    margin-top: 70px;
 }
 label {
     display: inline-block;
@@ -129,9 +128,6 @@ textarea {
 #save:hover {
     background-color: black;
 }
-.foot-add {
-    margin-top: 142px;
-}
 .contact input {
     height: 30px;
 }
@@ -149,9 +145,6 @@ textarea {
 .massage:hover {
     background-color: black;
 }
-.foot-contact {
-    margin-top: 223.5px;
-}
 @media (max-width: 1187px) {
     #save {
         width: 100px ;
@@ -166,14 +159,8 @@ textarea {
         width: 60%;
         font-size: 40px;
     }
-    .foot-home {
-        margin-top: 180px;
-    }
     .home-icon {
         width: 130px;
-    }
-    .foot-home {
-        margin-top: 200px;
     }
 }
 @media (max-width: 790px) {
@@ -199,9 +186,6 @@ textarea {
     .home-icon {
         width: 100px ;
     }
-    .foot-home {
-        margin-top: 275px;
-    }
     nav a {
         font-size: 13px;
         padding: 5px;
@@ -221,15 +205,6 @@ textarea {
     }
     form label {
         font-size: 18px;
-    }
-    .foot-add{
-        margin-top: 190px;
-    }
-    .foot-course {
-        margin-top: 160px;;
-    }
-    .foot-contact {
-        margin-top: 270px;
     }
 }
 @media (max-width: 500px) {
@@ -280,13 +255,6 @@ textarea {
     }
     table caption {
         font-size: 24px;
-    }
-    footer {
-        margin-top: auto;
-    }
-    
-    .foot-course {
-        margin-top: 160px;
     }
 }
 @media (max-width: 345px) {

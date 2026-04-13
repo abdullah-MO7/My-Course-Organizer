@@ -247,7 +247,7 @@ textarea {
         width: 100px;
     }
     nav a {
-        padding: 10px 8px;
+        padding: 10px auto;
         font-size: 14px;
     }
     form {

@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    background-color: rgb(239, 239, 229) ;
+    font-size: 17px ;
+}
+h1 {
+    margin-top: 50px ;
+    margin-bottom: 30px;
+    word-spacing: 5px;
+    font-size: 36px;
+}
+.footer {
+    background: rgb(35, 25, 25);
+    padding : 20px ;
+    color: white;
+    text-align: center;
+}
+nav {
+    overflow: hidden;
+    background-color: rgb(35, 25, 25);
+    height: 60px;
+} 
+nav a {
+    display: inline-block;
+    padding: 14px 16px ;
+    color: white;
+    text-decoration: none ;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+}
+nav a:hover {
+    background-color: #000;
+}
+.home-icon {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.active {
+    background: rgb(88, 85, 161);
+}
+.first {
+    width: 59% ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px; 
+    margin-top: 35px;
+}
+.iden {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.next {
+    display: block;
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 30px;
+    text-decoration: none ;
+    color : white ;
+    background-color: rgb(88, 85, 161);
+    padding: 10px 2px ;
+    border-radius: 10px;
+}
+.next:hover {
+    background-color:#000;
+}
+.foot-home {
+    margin-top: 135.5px;
+}
+table {
+    width: 80% ;
+    height: 60%;
+    margin: auto ;
+}
+table, table th, table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12px ;
+}
+table caption {
+    font-size: 50px ;
+    margin: 20px;
+}
+table th {
+    background: #ddd;
+}
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2 ;
+}
+.foot-course {
+    margin-top: 70px;
+}
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+input  {
+    width: 20% ;
+    height: 4% ;
+    margin: 10px ;
+}
+textarea {
+    Width: 20% ;
+    height: 8%;
+}
+.note {
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+}
+#save {
+    Width: 6% ;
+    border-radius: 10px;
+    background-color: rgb(88, 85, 161);
+    color: white;
+    font-size: 15px;
+}
+#save:hover {
+    background-color: black;
+}
+.foot-add {
+    margin-top: 142px;
+}
+.contact input {
+    height: 30px;
+}
+.contact textarea {
+    margin: 10px;
+    height: 60px;
+}
+.massage {
+    width : 11% ;
+    border-radius: 10px;
+    background-color: rgb(88, 85, 161);
+    font-size: 15px ;
+    color : white ;
+}
+.massage:hover {
+    background-color: black;
+}
+.foot-contact {
+    margin-top: 223.5px;
+}
+@media (max-width: 1187px) {
+    #save {
+        width: 100px ;
+    }
+    .massage {
+        width: 150px ;
+    }
+    .next {
+        width: 150px ;
+    }
+    .first {
+        width: 60%;
+        font-size: 40px;
+    }
+    .foot-home {
+        margin-top: 180px;
+    }
+    .home-icon {
+        width: 130px;
+    }
+    .foot-home {
+        margin-top: 200px;
+    }
+}
+@media (max-width: 790px) {
+    .first {
+        width: 70%;
+        font-size: 36px;
+    }
+    input , textarea {
+    width: 38% ;
+  }
+}
+@media (max-width: 630px) {
+    .iden {
+        width : 450px;
+    }
+}
+@media (max-width: 616px) {
+    h1 , .first {
+        font-size: 28px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .home-icon {
+        width: 100px ;
+    }
+    .foot-home {
+        margin-top: 275px;
+    }
+    nav a {
+        font-size: 13px;
+        padding: 5px;
+        position: relative;
+        top: 20px;
+    }
+    table caption {
+        font-size: 28px;
+    }
+    table {
+        width: 100% ;
+        display: block;
+        overflow-x: auto;
+    }
+    footer {
+        font-size: 15px;
+    }
+    form label {
+        font-size: 18px;
+    }
+    .foot-add{
+        margin-top: 190px;
+    }
+    .foot-course {
+        margin-top: 160px;;
+    }
+    .foot-contact {
+        margin-top: 270px;
+    }
+}
+@media (max-width: 500px) {
+    .first {
+        width: 90%;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    .iden {
+        width: 90% ;
+        font-size: 15px;
+        
+    }
+    .home-icon {
+        width: 100px;
+    }
+    nav a {
+        padding: 14px 8px;
+        font-size: 14px;
+    }
+    form {
+        width: 95%;
+        margin: 0 auto;
+    }
+    form label {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-bottom:  5px;
+    } 
+    input, textarea {
+        width: 85% ;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+    .note {
+        position: static;
+    }
+    #sive, .massage {
+        width: 50%;
+        padding: 10px;
+    }
+    table {
+        display: block;
+        overflow-x: auto;
+        width: 95%;
+    }
+    table caption {
+        font-size: 24px;
+    }
+    footer {
+        margin-top: auto;
+    }
+    
+    .foot-course {
+        margin-top: 160px;
+    }
+}
+@media (max-width: 345px) {
+    nav {
+        padding: 10px;
+        height: auto;
+        overflow : visible;
+        display: flex;
+    }
+    nav a {
+        display: block;
+        position: static;
+        top: 0;
+        bottom: 0;
+        margin: 5px auto;
+        padding: 8px;
+        font-size: 12px;
+    }
+}

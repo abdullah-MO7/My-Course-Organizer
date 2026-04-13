@@ -1,0 +1,48 @@
+<doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale= 1.0" >
+        <link rel="stylesheet" type="text/css" href="style.css" >
+        <title> Add Courses | Personal Course Organizer </title>
+    </head> 
+    <body>
+       <nav>
+           <a href="home.html"><b>Home</b></a>
+           <a href="courses.html"><b>My Courses</b></a>
+           <a href="add.html" class="active"><b>Add Courses</b></a>
+           <a href="contact.html"><b>Contact Us</b></a>
+       </nav>
+       <main>
+           <h1>Add a New Course </h1>
+           <p>Enter the details of your new academic course to add it to your personal list.</p>
+           <form action="courses.html" method="GET">
+               <label for="id">Course ID</label>
+               <input id="id" name="course-id" type="text" autofocus placeholder="Course ID" required>
+               <br>
+               <label for="name">Course Name</label>
+               <input id="name" name="course-name" type="text" placeholder="Course Name" required>
+               <br>
+               <label for="instructor">Instructor</label>
+               <input id="instructor" name="instructor" type="text" placeholder="Instructor" required>
+               <br>
+               <label for="hours">Credit Hours</label>
+               <input id="hours" name="credit-hours" type="number" placeholder="Credit Hours" min="0" required>
+               <br>
+               <label class="note" for="note" >Notes</label>
+               <textarea id="note" name="notes" placeholder="Enter any additional notes here..." required></textarea>
+               <br>
+               <input id="save" type="submit" value="save">
+            </form>
+        </main>
+       <footer class="foot-add">
+            <div class="footer" >
+                <p>
+                   Personal Courses Organizer - Web Task
+                </p>
+                <p>
+                   Created by: Abdullah Mohamed 
+                </p>     
+            </div>   
+       </footer>
+   </body>
+</html>

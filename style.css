@@ -108,12 +108,12 @@ input  {
     width: 20% ;
     height: 4% ;
     margin: 10px ;
-    pading: 6px ;
+    padding: 6px ;
 }
 textarea {
     Width: 20% ;
     height: 8%;
-    pading: 6px ;
+    padding: 6px ;
 }
 .note {
     position: relative;
@@ -246,7 +246,7 @@ textarea {
     .note {
         position: static;
     }
-    #sive, .massage {
+    .massage {
         width: 50%;
         padding: 10px;
     }
